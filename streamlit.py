@@ -57,7 +57,7 @@ gender_user = st.selectbox("What's your gender?",
                          "female",
                          "other",
                          "Don\'t know",
-                         'Refused'])
+                         'Refuse to answer'])
 if gender_user == "female":
     gender_user = 1
 else :
@@ -71,7 +71,7 @@ marital_user = st.selectbox("What is your current marital status?",
                          'Widowed',
                          'Never been married',
                          'Don\'t know',
-                         'Refused'])
+                         'Refuse to answer'])
 if marital_user == "Married":
     marital_user = 1
 else :
@@ -81,7 +81,7 @@ par_user = st.selectbox("Are you a parent of a child under 18 living in your hom
               options = ["Yes",
                          "No",
                          "Don\'t know",
-                         'Refused'])
+                         'Refuse to answer'])
 if par_user == "Yes":
     par_user = 1
 else :
